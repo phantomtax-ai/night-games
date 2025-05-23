@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1 {
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            width: 220px;
+            padding: 15px;
+            margin: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(135deg, #007BFF, #00C6FF);
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .button:hover {
+            background: linear-gradient(135deg, #0056b3, #0099cc);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <a href="games" class="button">Games</a>
+        <a href="proxy" class="button">Proxy</a>
+        <a href="apps" class="button">Apps</a>
+        <a href="tools" class="button">Tools</a>
+        <a href="terms-of-use" class="button">Terms of Use</a>
+    </div>
+
+</body>
+</html>
